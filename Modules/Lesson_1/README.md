@@ -30,5 +30,14 @@ print("Hello, World!\nWelcome to Python!")
 ```
 When you run this program, you'll notice that "Hello, World!" and "Welcome to Python!" are printed on separate lines.
 
+# Input
+In python you can take inputs from the user in multiple ways for now we'll stick with the simple `input()` command.
+`input()` is used to pass in user inputs from the command line to a program (We can use GUI/Graphical user interface we won't deal with that right now)
+```py
+name = input("Enter name: ")
+print(name)
+```
+When you run this program, you'll notice that "Enter name:" will print out and wait for a user input. Once user has passed in the input it will process to print it out to the standard output
+
 # Conclusion
 Congratulations! You've just written your first Python program. This is a significant milestone in your programming journey. From here, you can explore more complex concepts such as variables, data types, control flow, and functions. Remember, the key to mastering programming is practice. Keep experimenting with different code snippets, and don't hesitate to seek help if you encounter any challenges.
